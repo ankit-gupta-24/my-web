@@ -10,10 +10,13 @@ import Error404 from './components/Error404';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import './static/css/App.css';
+// import Loader from './Loader';
 
 function App() {
   return (
     <>
+    {/* <Loader/> */}
     <BrowserRouter>
         <NavBar/>
         <Switch>
@@ -22,7 +25,6 @@ function App() {
           <Route exact path='/portfolio' component={Portfolio} />
           <Route exact path='/skills' component={Skills} />
           <Route exact path='/contact' component={Contact} />
-          {/* <Route exact path='/gallery' /> */}
           <Route component={Error404}/>
         </Switch>        
         <Footer/>

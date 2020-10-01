@@ -52,9 +52,7 @@ const NavBar = () =>{
                     <NavLink exact className='a-nav-item' to='/about' activeClassName='a-active-class' onClick={toggleNav} >About</NavLink>
                     <NavLink exact className='a-nav-item' to='/portfolio' activeClassName='a-active-class' onClick={toggleNav} >Portfolio</NavLink>
                     <NavLink exact className='a-nav-item' to='/skills' activeClassName='a-active-class' onClick={toggleNav} >Skills</NavLink>
-                    <NavLink exact className='a-nav-item' to='/contact' activeClassName='a-active-class' onClick={toggleNav} >Contact</NavLink>
-                    {/* <NavLink className='a-nav-item' to='/gallery' onClick={toggleNav} >Gallery</NavLink> */}
-                    
+                    <NavLink exact className='a-nav-item' to='/contact' activeClassName='a-active-class' onClick={toggleNav} >Contact</NavLink>                    
                 </div>
                 <div className='a-nav-contact'>
                     <a className='a-nav-contact-item fa fa-facebook a-nav-contact-fb' style={{color:'blue'}} onClick={toggleNav} href='https://www.facebook.com/AnkitGupta2408' ><span className='a-hidden' >Facebook</span></a>
