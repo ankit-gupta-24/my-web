@@ -1,0 +1,42 @@
+.a-skills{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.a-prog-skills, .a-fram-skills{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.a-skill{
+    margin-bottom:1rem;
+}
+
+.a-skill-range{
+    width: 100%;
+    background-color: #ddd;
+ 
+}
+
+.a-skill-range div{
+    text-align: right;
+    color:white;
+    padding: 0.5rem;
+    background-color: blue;
+}
+
+@media (max-width:1000px){
+.a-skills{
+    width: 90%;
+}
+}
+@media (max-width:780px){
+    .a-skills{
+        width: 95%;
+    }
+}

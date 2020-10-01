@@ -1,0 +1,94 @@
+.a-contact{
+    width: 50%;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    box-shadow: 0 2px 5px -2px rgba(0,0,0,0.3);
+    padding: 2rem;
+
+}
+
+.a-contact input,.a-contact textarea{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid darkmagenta;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-next{
+    text-align: right;
+}
+
+button{
+    outline: none;
+    border: none;
+    background-color: darkslateblue;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button:hover{
+    box-shadow: 0 4px 10px 2px rgba(0,0,0,0.3);
+}
+label{
+    margin-bottom: 0.5rem;
+}
+
+.a-contact-social{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.a-contact-social a{
+    font-size: 1.4rem;
+    padding:1rem;
+    margin:1rem;
+    color:white
+}
+
+.a-contact-social a:hover{
+    opacity: 0.8;
+}
+
+.a-contact-fb{
+    background-color: darkblue;
+}
+.a-contact-insta{
+    background-color: #d4083b;
+}
+.a-contact-wp{
+    background-color: green;
+}
+.a-contact-git{
+    background-color: #010101;
+}
+.a-contact-ln{
+    background-color: teal;
+}
+.a-contact-tw{
+    background-color: blue;
+}
+
+@media (max-width:1000px){
+    .a-contact{
+        width: 60%;
+    }
+}
+
+@media (max-width:780px){
+    .a-contact{
+        width: 75%;
+    }
+}
+
+@media (max-width:600px){
+    .a-contact{
+        width: 95%;
+    }
+}
+

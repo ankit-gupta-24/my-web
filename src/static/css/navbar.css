@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f2f2f2;
+}
+::-webkit-scrollbar-thumb{
+    background-color: darkmagenta;
+
+}
+
+a{
+    text-decoration: none !important;
+}
+.a-nav-opener{
+    display: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #f0f0f0;
+}
+.a-nav-closer{
+    cursor: pointer;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.a-greeting{
+    margin-left:2rem ;
+    font-family: system-ui;
+    color: darkmagenta;
+    align-self: center;
+}
+
+.a-sidenav-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+}
+
+.a-nav-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.a-nav-item{
+    padding: 1rem;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-right: 1rem;
+    color:rgb(150, 12, 150);
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.a-nav-item:hover{
+    border-bottom: 2px solid darkmagenta;
+    color: darkmagenta;
+    /* background: #dddddd; */
+    
+}
+
+.a-active-class{
+    border-bottom:2px solid darkmagenta ;
+}
+
+.a-nav-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.a-nav-contact-item{
+    padding-top: 0.5rem ;
+    display: inline-block;
+    font-size: 1rem;
+    /* font-weight:500; */
+    margin-right: 1rem;
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+    
+}
+
+.a-nav-contact-item:hover{
+    /* opacity: 0.8; */
+    border-radius: 10px;
+}
+.a-nav-contact-fb:hover{
+    background: blue;
+    color: white !important;
+
+}
+.a-nav-contact-insta:hover{
+    background: linear-gradient(90deg,rgb(207, 30, 30),rgb(240, 11, 11));
+    color:white !important ;
+}
+.a-nav-contact-whatsapp:hover{
+    background:green ;
+    color: white !important;
+}
+.a-nav-contact-github:hover{
+    background: #333333;
+    color: white !important;
+}
+.a-nav-contact-phone:hover{
+    background: teal;
+    color: white !important;
+}
+.a-nav-contact-linkedin:hover{
+    background: teal;
+    color: white !important;
+}
+.a-nav-contact-twitter:hover{
+    background: blue;
+    color: white !important;
+}
+
+.a-hidden{
+    display: none;
+    font-family: monospace;
+}
+
+@media (max-width:1050px){
+    /* .a-sidenav-content{
+        display: none;
+    } */
+    
+    ::-webkit-scrollbar{
+        width: 5px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: white;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: darkmagenta;
+
+    }
+    
+    .a-nav{
+        background: #f0f0f0;
+    }
+
+    .a-sidenav-content{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 30%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        background-color: white;
+        box-shadow: 3px 0 5px -2px rgba(0,0,0,.4);
+        overflow-y: scroll;
+        padding-bottom: 5vh;
+    }
+    .a-nav-items{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .a-nav-item{
+        display: block;
+        width: 100%;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom:2px solid white;
+        /* text-align: center; */
+    }
+    .a-nav-item:hover{
+        background-color: #f2f2f2;
+    }
+    .a-nav-contact{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .a-nav-contact-item{
+        display: block;
+        width: 100%;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-align: left;
+    }
+    .a-greeting{
+        width: 100%;
+        margin-left: 0rem;
+        padding: 1rem 2rem;
+        text-align: left;
+        align-self: flex-start;
+    }
+    .a-hidden{
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    .a-nav-opener{
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 600;
+        outline: none;
+        border:none;
+        color: darkmagenta;
+        padding: 1rem;
+    }
+    .a-nav-closer{
+        display: inline-block;
+        float: right;
+        margin-right: 1rem;
+    }
+
+}
+
+@media (max-width:780px){
+    .a-sidenav-content{
+        width: 50%;
+    }
+}
+
+@media (max-width:600px){
+    .a-sidenav-content{
+        width: 80%;
+    }
+}

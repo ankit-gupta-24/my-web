@@ -1,0 +1,38 @@
+.a-footer{
+    width: 100%;
+    background-color: #f0f0f0;
+    padding-bottom: 1rem;
+}
+
+.a-footer-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.a-footer-links a{
+    display: inline-block;
+    padding:1rem;
+    /* color: white; */
+}
+.a-footer-links a:hover{
+    color:red;
+}
+
+@media (max-width:600px){
+    .a-footer-links a{
+        padding: 0.5rem;
+    }
+    .a-footer{
+        background-color: black;
+    }
+    .a-footer-links a{
+        color: white;
+    }
+    .a-copyright{
+        color: white;
+    }
+}
+
+

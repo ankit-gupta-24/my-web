@@ -1,0 +1,98 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap");
+
+.a-home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10vh 0 5vh 0;
+    background: #f0f0f0;
+    justify-content: space-around;
+}
+
+.a-profile{
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 50%;
+}
+
+.a-home-col{
+    align-self: center;
+}
+
+.a-name{
+    margin-bottom: 1rem;
+}
+.a-name h1{
+    font-size: 3rem;
+    font-family: 'Josefin Slab', serif;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: darkmagenta;
+}
+
+.a-name p{
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+    text-align: center;
+}
+.a-keyword{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:chocolate;
+}
+
+.a-keyword span{
+    /* border: 2px solid #f0f0f0; */
+    border-bottom: 1px solid chocolate;
+    padding: .3rem;
+}
+
+.a-keyword span:hover{
+    cursor: pointer;
+    color: white;
+    background-color: chocolate;
+    border-radius: .3rem;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.3);
+}
+
+.a-home-text-animation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 0;    
+}
+
+.a-home-text-animation .text{
+    text-align: center;
+}
+
+.a-home-text-animation .btn{
+    font-size:1.2rem;
+    width: 15vw;
+    margin: auto;
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media (max-width:800px){
+    .a-home{
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+    .a-home-col{
+        margin-bottom: 2rem;
+    }
+    .a-home-text-animation .btn{
+        width: 25vw;
+    }
+}
+
+@media (max-width:600px){
+    .a-home-text-animation .btn{
+        width: 50vw;
+    }
+}

@@ -1,0 +1,9 @@
+@keyframes fadeInLeft{
+    from {margin-left: -50px ;}    
+    to {margin-left: 0px;}
+}
+
+@keyframes fadeInTop{
+    from {margin-top: -30px;}
+    to{margin-top: 0px;}
+}
