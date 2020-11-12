@@ -11,12 +11,12 @@ const ProjectData =
     },
     {
         id:2,
-        title:'Bajate Raho Music Web App',
+        title:'My Music',
         img:require('../static/images/p2.png'),
         description:`An Online Music playing website with the features like - shuffling, playlist creation, favourites songs
         , liked songs, sharing of songs, searching etc. It provides songs by different categories, recent releases, filtered by languages,
         popular songs, popular 90s songs etc.`,
-        link:'https://github.com/ankit-gupta-24/Bajate-Raho-Music-Web',
+        link:'https://github.com/ankit-gupta-24/my-music',
         tag:'Django, Python, HTML, CSS, JavaScript, JQuery, Bootstrap'
     },
     {

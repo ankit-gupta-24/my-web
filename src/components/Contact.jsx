@@ -114,12 +114,12 @@ const Contact = () =>{
             </div>
 
             <div className='a-contact-social'>
-                <a href='https://www.facebook.com/AnkitGupta2408' className='fa fa-facebook a-contact-fb' ></a>
-                <a href='https://www.instagram.com/gupta.ankit.2408/' className='fa fa-instagram a-contact-insta' ></a>
-                <a href='https://wa.me/918989411680?text=Hello' className='fa fa-whatsapp a-contact-wp' ></a>
-                <a href='https://github.com/ankit-gupta-24' className='fa fa-github a-contact-git' ></a>
-                <a href='https://www.linkedin.com/in/ankit8989gupta/' className='fa fa-linkedin a-contact-ln' ></a>
-                <a href='https://twitter.com/ANKITGU28845706' className='fa fa-twitter a-contact-tw' ></a>
+                <a href='https://www.facebook.com/AnkitGupta2408' className='fa fa-facebook a-contact-fb' ><span className='anchor_hidden'>facebook</span></a>
+                <a href='https://www.instagram.com/gupta.ankit.2408/' className='fa fa-instagram a-contact-insta' ><span className='anchor_hidden'>instagram</span></a>
+                <a href='https://wa.me/918989411680?text=Hello' className='fa fa-whatsapp a-contact-wp' ><span className='anchor_hidden'>whatsapp</span></a>
+                <a href='https://github.com/ankit-gupta-24' className='fa fa-github a-contact-git' ><span className='anchor_hidden'>github</span></a>
+                <a href='https://www.linkedin.com/in/ankit8989gupta/' className='fa fa-linkedin a-contact-ln' ><span className='anchor_hidden'>linkedin</span></a>
+                <a href='https://twitter.com/ANKITGU28845706' className='fa fa-twitter a-contact-tw' ><span className='anchor_hidden'>twitter</span></a>
             </div>
         </div>
         </>

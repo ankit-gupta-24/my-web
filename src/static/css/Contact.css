@@ -73,6 +73,9 @@ label{
 .a-contact-tw{
     background-color: blue;
 }
+.anchor_hidden{
+    display: none;
+}
 
 @media (max-width:1000px){
     .a-contact{
